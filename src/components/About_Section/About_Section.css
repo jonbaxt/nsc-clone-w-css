@@ -3,6 +3,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
     padding-top: 200px;
     width: 100%; }
 
@@ -10,11 +12,61 @@
     width: 40vw;
     color: black;
     text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
+.AboutSec-left h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 1.54px;
+}
+.AboutSec-left-line {
+    background: #005293;
+    height: 4px;
+    width: 60px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.AboutSec-left p {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 60px;
+    letter-spacing: 1.54px;
+    line-height: 2.54;
+}
 .AboutSec-right {
     width: 50vw;
 }
 .AboutSec-right img {
     width: 40vw;
+}
+
+.AboutSec-left button {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 100px;
+    width: 320px;
+    height: 60px;
+    background: white;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+    border: 2px solid #005293;
+    color: #005293;
+    cursor: pointer;
+    align-items: center; }
+    .topArea-ships {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 200px; */
+    padding-top: 200px;
+  }
+.AboutSec-left .arrow {
+    border: solid #005293;
+    border-width: 0 3px 3px 0;
 }

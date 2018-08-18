@@ -15,7 +15,7 @@ body, section, p, h1, h2, h3, h4, h5 {
   background-position-x: -40px; }
 
   .topArea-inner {
-    background: rgba(65,105,225, 0.8);
+    background: rgba(0,82,147,0.7);
     z-index: 2; 
     height: 100vh; }
 

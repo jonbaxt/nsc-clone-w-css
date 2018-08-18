@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import About_Section from './components/About_Section/About_Section';
+import Industry_Section from './components/Industry_Section/Industry_Section';
 import './App.css';
 
 import ship1 from './resources/fill-4.svg';
@@ -29,7 +30,7 @@ class App extends Component {
       </section>
 
       <About_Section />
-
+      <Industry_Section />
   </div>
     );
   }
