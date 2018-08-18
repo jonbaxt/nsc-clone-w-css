@@ -1,0 +1,96 @@
+.education {
+    width: 100%;
+    /* height: 200vh; */
+    background: #003150;
+}
+
+.education h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 180px;
+    letter-spacing: 1.54px;   
+}
+.education p {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 180px;
+    letter-spacing: 1.54px;
+    line-height: 2.54;
+}
+.splitpage {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.splitpage h1 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: bolder;
+    padding-top: 150px;
+    padding-left: 5px;
+    padding-right: 60px;
+    padding-bottom: 5px;
+    letter-spacing: 1.54px;
+    line-height: 1.54;   
+}
+.splitpage p {
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    letter-spacing: 1.54px;
+    line-height: 2.54;
+    text-align: left;
+}
+.splitpage h2 {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    line-height: 2.0;
+    font-size: 18px;
+    text-align: left;
+}
+.splitpage button {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+    width: 320px;
+    height: 60px;
+    background: #005293;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    align-items: center; }
+.splitpage-line {
+    background: white;
+    height: 4px;
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.splitpage-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.splitpage-left img {
+    width: 100%;
+}
+.splitpage-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.splitpage-right img {
+    width: 100%;
+    
+}

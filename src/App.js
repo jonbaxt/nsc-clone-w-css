@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import About_Section from './components/About_Section/About_Section';
 import Industry_Section from './components/Industry_Section/Industry_Section';
+import Career_Section from './components/Career_Section/Career_Section';
+import Education from './components/Education/Education';
+import Events from './components/Events/Events';
+
 import './App.css';
 
 import ship1 from './resources/fill-4.svg';
@@ -31,6 +35,9 @@ class App extends Component {
 
       <About_Section />
       <Industry_Section />
+      <Career_Section />
+      <Education />
+      <Events />
   </div>
     );
   }
