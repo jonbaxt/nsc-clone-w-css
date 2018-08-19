@@ -5,6 +5,7 @@ import Career_Section from './components/Career_Section/Career_Section';
 import Education from './components/Education/Education';
 import Events from './components/Events/Events';
 import News from './components/News/News';
+import Nav from './components/Nav/Nav';
 
 import './App.css';
 
@@ -17,6 +18,8 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
+        <p style={{color: 'black'}}>Website is built to show styling. Does not contain functionality.</p>
+        <Nav />
       <section className='topArea'>
           <div className='topArea-inner'>
               <div className='topArea-ships'>
@@ -60,6 +63,11 @@ class App extends Component {
         <a>CONNECT WITH US</a>
         </div>
       </footer>
+      <div className='littleLine'></div>
+      <div className='bottom'>
+        <p>© 2018 Naval Shipbuilding College</p>
+        <a>SITE MAP</a>
+      </div>
   </div>
     );
   }
